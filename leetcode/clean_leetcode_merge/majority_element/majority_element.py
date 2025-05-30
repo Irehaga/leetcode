@@ -18,7 +18,7 @@ class Solution:
         for num in nums:
             if count == 0:
                 majorElment = num 
-            count += 1 if num == count else -1
+            count += 1 if num == majorElment else -1
         return majorElment
 
 
