@@ -1,4 +1,4 @@
-public class RemoveDuplicates {
+public class RemoveDuplicates_2 {
     public static int removeDuplicates(int[] nums) {
         int k = 2;
         for (int i = 2; i < nums.length; i++) {
